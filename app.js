@@ -5,8 +5,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const config = require('./load-config');
 
-const accountApp = require('./app-account');
-const syncApp = require('./app-sync');
+// const accountApp = require('./app-account');
+// const syncApp = require('./app-sync');
 const plaidApp = require('./app-plaid');
 
 const app = express();
